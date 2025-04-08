@@ -1513,14 +1513,13 @@ ffexp <- R6::R6Class(
         )
       }
       invisible(self)
-    },
-    #' @description Cleanup after deleting object.
-    finalize = function() {
-      self$stop_cluster()
     }
   ),
   private = list(
-
+    # @description Cleanup after deleting object.
+    finalize = function() {
+      self$stop_cluster()
+    }
   )
 )
 if (F) {

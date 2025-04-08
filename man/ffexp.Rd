@@ -151,7 +151,6 @@ item to show up in the output data frame.}
 \item \href{#method-ffexp-print}{\code{ffexp$print()}}
 \item \href{#method-ffexp-set_parallel_cores}{\code{ffexp$set_parallel_cores()}}
 \item \href{#method-ffexp-stop_cluster}{\code{ffexp$stop_cluster()}}
-\item \href{#method-ffexp-finalize}{\code{ffexp$finalize()}}
 \item \href{#method-ffexp-clone}{\code{ffexp$clone()}}
 }
 }
@@ -805,16 +804,6 @@ one fewer than there are.}
 Stop the parallel cluster.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{ffexp$stop_cluster()}\if{html}{\out{</div>}}
-}
-
-}
-\if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-ffexp-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-ffexp-finalize}{}}}
-\subsection{Method \code{finalize()}}{
-Cleanup after deleting object.
-\subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{ffexp$finalize()}\if{html}{\out{</div>}}
 }
 
 }
